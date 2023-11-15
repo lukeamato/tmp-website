@@ -1025,13 +1025,6 @@ p {
   overflow: visible;
 }
 
-.navbar-3 {
-  background-image: url('../images/Dommers_-8789-1-2-min.jpg');
-  background-position: 0 0;
-  background-size: cover;
-  margin-left: 0;
-}
-
 .nav-link-5 {
   color: #f1eaea;
 }
@@ -1049,13 +1042,6 @@ p {
 
 .container-5 {
   margin-left: 475.667px;
-}
-
-.navbar-2-copy-copy {
-  background-image: url('../images/Dommers_-8789-1-2-min.jpg');
-  background-position: 0 0;
-  background-size: cover;
-  margin-left: 1px;
 }
 
 .nav-link-2-copy {
@@ -1090,23 +1076,6 @@ p {
 
 .nav-menu-2 {
   margin-right: 63px;
-}
-
-.navbar-2-copy-copy {
-  height: 50px;
-  aspect-ratio: auto;
-  opacity: 1;
-  -webkit-text-fill-color: inherit;
-  background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg');
-  background-position: 50% 100%;
-  background-repeat: repeat;
-  background-size: contain;
-  background-attachment: fixed;
-  background-clip: border-box;
-  margin-left: -249px;
-  padding-bottom: 0;
-  padding-left: 0;
-  overflow: visible;
 }
 
 .section-2 {
@@ -1181,22 +1150,6 @@ p {
   display: block;
 }
 
-.mobile-navbar {
-  aspect-ratio: auto;
-  opacity: 1;
-  -webkit-text-fill-color: inherit;
-  background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg');
-  background-position: 17% 0;
-  background-repeat: repeat;
-  background-size: contain;
-  background-attachment: fixed;
-  background-clip: border-box;
-  margin-left: -249px;
-  padding-bottom: 0;
-  padding-left: 0;
-  overflow: visible;
-}
-
 .mobile-nav-menu {
   margin-right: 63px;
 }
@@ -1241,7 +1194,7 @@ p {
   aspect-ratio: auto;
   opacity: 1;
   -webkit-text-fill-color: inherit;
-  background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg');
+  background-image: url('../images/tmpwebpic.png');
   background-position: 17% 0;
   background-repeat: repeat;
   background-size: contain;
@@ -1537,7 +1490,7 @@ p {
     border-radius: 0;
   }
 
-  .navbar-2-copy, .navbar-2-copy-copy, .navbar-2-copy-copy, .contact-nav {
+  .navbar-2-copy, .contact-nav {
     aspect-ratio: auto;
   }
 
@@ -1546,7 +1499,7 @@ p {
     background-size: cover, auto;
   }
 
-  .mobile-navbar, .mobile-navbar-copy {
+  .mobile-navbar-copy {
     aspect-ratio: auto;
   }
 
@@ -1590,7 +1543,7 @@ p {
   }
 
   .subpage-background {
-    background-image: url('../images/Dommers_-8789-1-2-min.jpg'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: url('../images/tmpcontactpagepice-edited.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     background-position: 50%, 0 0;
     background-repeat: repeat, repeat;
     background-size: contain, auto;
@@ -1708,7 +1661,7 @@ p {
     background-color: rgba(0, 0, 0, 0);
   }
 
-  .navbar-2-copy, .navbar-2-copy-copy, .navbar-2-copy-copy, .contact-nav {
+  .navbar-2-copy, .contact-nav {
     color: #fff;
     background-color: #fff;
     overflow: visible;
@@ -1724,16 +1677,6 @@ p {
     background-repeat: repeat, repeat;
     background-size: cover, auto;
     background-attachment: fixed, scroll;
-  }
-
-  .mobile-navbar {
-    color: #fff;
-    background-color: #fff;
-    background-image: url('../images/tmpwebpic.png');
-    background-position: 0 0;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: visible;
   }
 
   .mobile-nav-menu {
@@ -1881,7 +1824,7 @@ p {
   }
 
   .subpage-background-copy {
-    background-image: url('../images/Dommers_-8789-1-2-min.jpg'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: url('../images/tmpcontactpagepice-edited.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     background-position: 50%, 0 0;
     background-repeat: repeat, repeat;
     background-size: cover, auto;
