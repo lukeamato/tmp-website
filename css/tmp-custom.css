@@ -969,41 +969,42 @@ p {
 }
 
 .navbar-2 {
-  background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg');
+  background-image: url('../images/tmpwebpic.png');
   background-position: 0 0;
   background-size: cover;
 }
 
-.nav-link-2 {
+.nav-link-home {
+  filter: blur(.75px);
   color: #f6eded;
+  font-size: 19px;
+  /* font-size: 25px;
+  line-height: 25px; */
 }
 
-.nav-link-2.w--current {
+.nav-link-home.w--current {
+  filter: blur(.75px);
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+}
+/* .nav-link-home.w--current {
   filter: blur(1px);
   color: #fff;
   font-family: thin, sans-serif;
   font-size: 25px;
   font-weight: 300;
   line-height: 25px;
-}
+} */
 
-.nav-link-3 {
-  filter: blur(1px);
+.nav-link-merch {
+  filter: blur(.75px);
   color: #fff;
   padding-left: 50px;
   font-family: Roboto, sans-serif;
   font-size: 25px;
   font-weight: 300;
   text-decoration: none;
-}
-
-.nav-link-4 {
-  filter: blur(1px);
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
-  font-weight: 300;
 }
 
 .container-4 {
@@ -1015,7 +1016,7 @@ p {
   aspect-ratio: auto;
   opacity: 1;
   -webkit-text-fill-color: inherit;
-  background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg');
+  background-image: url('../images/tmpwebpic.png');
   background-position: 17% 0;
   background-repeat: repeat;
   background-size: contain;
@@ -1046,34 +1047,20 @@ p {
   margin-left: 475.667px;
 }
 
-.nav-link-2-copy {
-  filter: blur(.75px);
-  color: #f6eded;
-  font-size: 19px;
-}
-
-.nav-link-2-copy.w--current {
-  filter: blur(.75px);
-  color: #fff;
-  font-size: 19px;
-  font-weight: 300;
-}
-
-.nav-link-3-copy {
-  filter: blur(.75px);
-  color: #fff;
-  font-weight: 300;
-}
-
-.nav-link-4-copy {
+.nav-link-contact {
   filter: blur(.75px);
   color: #fff;
   font-family: Roboto, sans-serif;
   font-weight: 300;
+  /* padding-left: 50px;
+  font-size: 25px; */
 }
 
-.nav-link-4-copy.w--current {
+.nav-link-contact.w--current {
   color: #fff;
+  /* padding-left: 50px;
+  font-family: Roboto, sans-serif;
+  font-size: 25px; */
 }
 
 .nav-menu-2 {
@@ -1094,43 +1081,6 @@ p {
   background-size: 0%;
   background-attachment: scroll;
   margin-left: 1px;
-}
-
-.contact-contact {
-  filter: blur(.75px);
-  color: #fff;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
-}
-
-.contact-contact.w--current {
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
-}
-
-.contact-merch {
-  filter: blur(.75px);
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.nav-link-2-copy-copy {
-  filter: blur(.75px);
-  color: #f6eded;
-  font-size: 25px;
-  line-height: 25px;
-}
-
-.nav-link-2-copy-copy.w--current {
-  filter: blur(.75px);
-  color: #fff;
-  font-size: 19px;
-  font-weight: 300;
 }
 
 .nav-menu-3 {
@@ -1158,38 +1108,6 @@ p {
 
 .text-block-3, .text-block-4, .text-block-5 {
   display: none;
-}
-
-.nav-link-4-copy {
-  filter: blur(1px);
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.nav-link-3-copy {
-  filter: blur(1px);
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-.nav-link-2-copy {
-  color: #f6eded;
-}
-
-.nav-link-2-copy.w--current {
-  filter: blur(1px);
-  color: #fff;
-  font-family: thin, sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 25px;
 }
 
 .mobile-navbar-copy {
@@ -1277,20 +1195,6 @@ p {
   background-size: 0%;
   background-attachment: scroll;
   margin-left: 1px;
-}
-
-.contact-contact-copy {
-  filter: blur(.75px);
-  color: #fff;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
-}
-
-.contact-contact-copy.w--current {
-  color: #fff;
-  padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  font-size: 25px;
 }
 
 .text-block-6, .text-block-7, .text-block-8, .text-block-6-copy, .text-block-7-copy, .text-block-8-copy {
@@ -1514,7 +1418,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .hero {
-    background-image: url('../images/Dommers_3_31_22_--164-2-1.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-image: url('../images/tmpwebpic.png'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
     background-position: 50%, 0 0;
     background-repeat: repeat, repeat;
     background-size: cover, auto;
