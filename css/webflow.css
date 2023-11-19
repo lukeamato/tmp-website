@@ -8,6 +8,7 @@
 [class*=" w-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'webflow-icons' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -43,8 +44,6 @@
 }
 html {
   height: 100%;
-  overflow: hidden;
-  height: 100%;
 }
 body {
   margin: 0;
@@ -54,9 +53,6 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333;
-  overflow: auto;
-  height: 100%;
-  overscroll-behavior: none;
 }
 img {
   max-width: 100%;
@@ -101,7 +97,6 @@ html.w-mod-touch * {
 }
 input.w-button {
   -webkit-appearance: button;
-  appearance: button;
 }
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
@@ -306,7 +301,6 @@ button,
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
-  appearance: button;
 }
 .w-form {
   margin: 0 0 15px;

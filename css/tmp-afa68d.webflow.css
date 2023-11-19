@@ -7,7 +7,6 @@
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-position: 50%;
   background-size: cover;
-  padding-top: 56.25%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -24,9 +23,6 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  overflow: auto;
-  height: 100%;
-  overscroll-behavior: none;
 }
 
 h1 {
@@ -1507,6 +1503,30 @@ p {
   .container-2-copy {
     border: 1px solid #000;
     border-radius: 0;
+  }
+
+  .youtube-2-copy {
+    -webkit-text-stroke-width: 1px;
+    word-break: normal;
+    width: 110%;
+    height: 60%;
+    float: left;
+    aspect-ratio: auto;
+    opacity: 1;
+    -webkit-backdrop-filter: grayscale() contrast(200%);
+    backdrop-filter: grayscale() contrast(200%);
+    outline-offset: 3px;
+    mix-blend-mode: luminosity;
+    border: 1px #000;
+    border-radius: 0;
+    outline: 1.5px #000;
+    margin-top: 419px;
+    margin-bottom: -35px;
+    margin-left: -37px;
+    padding-bottom: 0;
+    transition: flex-grow .325s cubic-bezier(.55, .085, .68, .53);
+    transform: skew(0deg);
+    box-shadow: 0 6px 8px 8px rgba(0, 0, 0, .2);
   }
 
   .contact-nav-copy {
