@@ -1526,7 +1526,7 @@ p {
   .nav-block-home-mobile {
     filter: blur(.75px);
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     text-align: left;
     margin-bottom: 20px;
@@ -1563,8 +1563,8 @@ p {
   }
 
   .nav-links-mobile {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
   }
 
   .contact-nav-copy {
