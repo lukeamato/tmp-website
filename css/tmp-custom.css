@@ -24,6 +24,9 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  overflow: auto;
+  height: 100%;
+  overscroll-behavior: none;
 }
 
 h1 {
