@@ -11,16 +11,12 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  overflow: hidden;
-  height: 100%;
 }
 /**
  * Remove default margin.
  */
 body {
   margin: 0;
-  overflow: auto;
-  height: 100%;
   overscroll-behavior: none;
 }
 /* HTML5 display definitions
