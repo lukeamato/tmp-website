@@ -935,7 +935,7 @@ p {
 .nav-link-home {
   filter: blur(.75px);
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 300;
   /* line-height: 25px; */
 }
@@ -970,7 +970,7 @@ p {
 }
 
 .nav-links-standard {
-  filter: blur(.75px);
+  filter: blur(1px);
   color: #fff;
   padding-left: 50px;
   font-family: Roboto, sans-serif;
