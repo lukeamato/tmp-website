@@ -1191,6 +1191,7 @@ p {
     color: #fff;
     background-color: #fff;
     overflow: visible;
+    display: none;
   }
 
   .nav-menu-3 {
