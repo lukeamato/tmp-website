@@ -335,16 +335,6 @@ p {
   background-size: auto;
 }
 
-.contact-nav {
-  color: rgba(255, 255, 255, 0);
-  background-color: #fff;
-  background-image: url('../images/contactpage-min.jpg');
-  background-position: 0 0;
-  background-size: 0%;
-  background-attachment: scroll;
-  margin-left: 1px;
-}
-
 .hero {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -458,10 +448,6 @@ p {
     margin-bottom: 30px;
   }
 
-  .contact-nav {
-    aspect-ratio: auto;
-  }
-
   .hero {
     background-position: 77%, 0 0;
     background-size: cover, auto;
@@ -534,13 +520,6 @@ p {
 
   .bold-text {
     padding-right: 0;
-  }
-
-  .contact-nav {
-    color: #fff;
-    background-color: #fff;
-    overflow: visible;
-    display: none;
   }
 
   .hero {
